@@ -1,0 +1,65 @@
+<html>
+<head>
+<style>
+body{
+	background-color:blue;
+}
+.container{
+	background-color:grey;
+	width:600px;
+	padding:10px;
+}
+.textbox{
+	margin-left:30px;
+}
+</style>
+<script>
+function calc(){
+var prev=document.getElementById("text3").value;
+var curr=document.getElementById("text4").value;
+var unit=parseInt(prev)-parseInt(curr);
+document.getElementById("text5").value=unit;
+var amt=parseInt(unit)*5;
+document.getElementById("text6").value=amt;
+var gst=document.getElementById("text7").value;
+var totalamount=parseInt(amt*gst)/100+parseInt(amt);
+document.getElementById("text8").value=totalamount;
+}
+</script>
+<title>Electricity Bill</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+<center>
+<div class="container">
+<div class="heading">
+<h1>Electricity Bill</h1>
+<h4>Javascript</h4>
+</div>
+<br>
+<br>
+<div class="input">
+EB-no:
+<input type="text" id="text1" class="textbox"><br><br>
+Customer Name:
+<input type="text" id="text2" class="textbox"><br><br>
+Previous Unit:
+<input type="text" id="text3" class="textbox"><br><br>
+Current Unit:
+<input type="text" id="text4" class="textbox"><br><br>
+Unit:
+<input type="text" id="text5" class="textbox"><br><br>
+Amount:
+<input type="text" id="text6" class="textbox"><br><br>
+Gst:
+<input type="text" id="text7" class="textbox"><br><br>
+Total Amount
+<input type="text" id="text8" class="textbox"><br><br>
+</div><br>
+<div class="operators">
+<input type="button" value="Calculate" onClick="calc()" class="btn">
+</div></div>
+</center>
+</body>
+</html>

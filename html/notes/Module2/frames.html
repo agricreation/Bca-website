@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="../../../style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Sora&display=swap" rel="stylesheet">
+    
+    </head>
+<body>
+    <div id="header">
+        <a href="../../../index.html">
+            <img src="../../../img/favicon.png">
+        </a>
+        <ul>
+            <li><a href="../../../index.html">Menu</a></li>
+        </ul>
+    </div>
+    <!--Headings-->
+    <div id="j">
+        HTML Frames
+    </div>
+
+<center><h2>HTML Frames</h2></center>
+<p>
+HTML frames are used to divide your browser window into multiple sections where each section can load a separate HTML document. A collection of frames in the browser window is known as a frameset. The window is divided into frames in a similar way the tables are organized: into rows and columns.<br>
+To use frames on a page we use <frameset> tag instead of <body> tag. The <frameset> tag defines, how to divide the window into frames. The rows attribute of <frameset> tag defines horizontal frames and cols attribute defines vertical frames. Each frame is indicated by <frame> tag and it defines which HTML document shall open into the frame.<br>
+<br>
+Example:<br>
+<dd>
+&lt;!DOCTYPE html&gt;<br>
+&lt;html&gt;<br>
+
+   &lt;head&gt;<br>
+      &lt;title&gt;HTML Frames&lt;/title&gt;<br>
+   &lt;/head&gt;<br>
+	
+   &lt;frameset rows = "10%,80%,10%"&gt;<br>
+      &lt;frame name = "top" src = "/html/top_frame.htm" /&gt;<br>
+      &lt;frame name = "main" src = "/html/main_frame.htm" /&gt;<br>
+      &lt;frame name = "bottom" src = "/html/bottom_frame.htm" /&gt;<br>
+   
+      &lt;noframes&gt;<br>
+         &lt;body&gt;Your browser does not support frames.&lt;/body&gt;<br>
+      &lt;/noframes&gt;<br>
+      
+   &lt;/frameset&gt;<br>
+   
+&lt;/html&gt;<br>
+</dd>
+</p>
+</body>
+</head>

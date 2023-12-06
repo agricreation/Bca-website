@@ -1,0 +1,160 @@
+.backgrounds  
+{
+background-color: rgb(103, 196, 224);
+padding: 10px;
+width: cover;
+height: 550px;
+
+margin: 40px 40px 40px 40px;
+filter: drop-shadow(4px 4px 4px #2c2c2e);
+}
+
+.design6
+{
+    width: 910px;
+    height: 500px;
+    margin-right: 20px;
+    margin-top:20px;
+    background-color: blanchedalmond;
+    padding: 10px;
+    float:right;
+}
+.design6 img
+{
+    width: 500px;
+    height: 100px;
+    margin-left: 200px;
+}
+.design7
+{
+    background-color: rgb(103, 196, 224);
+    padding: 1px;
+    width: 910px;
+    margin-top: 10px;
+}
+
+.design8
+{
+    margin-top:15px;
+   
+    border: 1px solid black;
+    font-family: Montserrat;
+    margin-right: 390px;
+    
+}
+.design8 td{
+    line-height:25px;
+}
+
+.design1{
+    width: 190px;
+    height: 25px;
+    background-color: #836AF5;
+    margin-top: 10px;
+   
+    text-align: center;
+    color: white;
+    
+    font-family: Montserrat;
+    font-size: 20px;
+    border-radius: 0px 20px 20px 0px;  
+    position: relative;
+
+
+}
+
+.design2{
+    width: 100px;
+    height: 25px;
+    background-color: #F579FC;
+    margin-top: 10px;
+    margin-left: 110px;
+    text-align: center;
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    border-radius: 20px 0px 0px 20px;  
+}
+
+.design3{
+    width: 150px;
+    height: 25px;
+    background-color: #F579FC;
+    margin-top: 10px;
+    margin-left: 60px;
+    text-align: center;
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    border-radius: 20px 0px 0px 20px;  
+}
+
+.design4{
+    width: 210px;
+    height: 25px;
+    background-color: #836AF5;
+    margin-top: px;
+  
+    text-align: center;
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    border-radius: 0px 0px 20px 0px;  
+}
+.design4{
+    margin: 5px;
+    margin-top: 0px;
+    width: 190px;
+    height: 110px;
+    border-radius: 0px 0px 0px 0px;  
+}
+
+.skills{
+line-height: 4px;
+}
+
+.design5
+{
+    margin-top:20px;
+    background-color: #F77AFF;
+    padding: 10px;
+}
+.design
+{
+    background-color: blanchedalmond;
+    padding: 10px;
+    width: 200px;
+    height: 520px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 200px 200px 0px 0px;
+}
+
+.profiles img
+{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.aboutme
+{
+    padding: 2px;
+    float: right;
+    background-color:#F77AFF;
+    width: 350px;
+    height:335px;
+    margin-left: 100px;
+    position:absolute;
+    left: 740px;
+    bottom:365px;
+    top:167px;
+}
+
+.aboutme p
+{
+    line-height: 30px;
+    margin: 5px;;
+}

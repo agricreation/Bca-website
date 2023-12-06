@@ -1,0 +1,12 @@
+function calc(){
+	var salary=document.getElementById("salary").value;
+	var bonus=document.getElementById("bonus").value;
+	var increment=document.getElementById("inc").value;
+	var overtime=document.getElementById("over").value;
+	var lifeins=document.getElementById("lic").value;
+	var provfund=document.getElementById("pf").value;
+	var grosspay=parseInt(salary*bonus)/100+parseInt(salary*increment)/100+parseInt(salary*overtime)/100+parseInt(salary);
+	document.getElementById("gp").value=grosspay;
+	var netpay=parseInt(grosspay)-parseInt(salary)*lifeinc/100+parseInt(provfund)*salary/100;
+	document.getElementById("np").value=netpay;
+}

@@ -1,0 +1,68 @@
+<!---html--->
+
+
+<html>
+<head><title>TIME TABLE</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+<table>
+<tr>
+<td>  </td>
+<td> how1</td>
+<td> how2</td>
+<td> how3</td>
+<td> how4</td>
+<td> how5</td>
+<td> how6</td></tr>
+<tr>
+
+<td> mon </td>
+<td> st</td>
+<td> wc</td>
+<td> acc</td>
+<td> acc</td>
+<td> wc</td>
+<td> wt</td></tr>
+<tr>
+<td>tues  </td>
+<td> wc</td>
+<td> wt</td>
+<td> wc</td>
+<td> wt</td>
+<td> wc</td>
+<td> wc</td></tr>
+<tr>
+<td> wed </td>
+<td> st</td>
+<td> acc</td>
+<td> st</td>
+<td> wc</td>
+<td> wt</td>
+<td> st</td></tr>
+<tr>
+<td>thur  </td>
+<td> wc</td>
+<td> acc</td>
+<td> wt</td>
+<td> st</td>
+<td> wc</td>
+<td> wc</td></tr>
+<tr>
+<td>fri  </td>
+<td> wt</td>
+<td> wc</td>
+<td> wt</td>
+<td> st</td>
+<td> wc</td>
+<td> wc</td></tr>
+
+</div></head>
+<html>

@@ -1,0 +1,38 @@
+< stylesheet >
+
+body{
+    background-color:#f0a3bc ;
+}
+#list1{
+    background-color:#397754 ;
+    padding:5px;
+}
+#list2{
+    background-color:#70be51 ;
+    padding:5px;
+}
+#list3{
+    background-color:#eb6b40 ;
+    padding:5px;
+}
+#list4{
+    background-color:#9b45b2;
+    padding:5px;
+}
+#list5{
+    background-color:#5bccf6 ;
+    padding:5px;
+}
+#list6{
+    background-color:#fcde67 ;
+    padding:5px;
+}
+.listh{
+    background-color: white;
+    padding:10px;
+    position:sticky;
+    top:0;
+}
+#list1,#list2,#list3,#list4,#list5,#list6{
+    color:white;
+}

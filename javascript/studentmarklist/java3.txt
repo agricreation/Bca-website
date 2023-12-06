@@ -1,0 +1,28 @@
+function calc(){
+var mark1=document.getElementById("text1").value;
+var mark2=document.getElementById("text2").value;
+var mark3=document.getElementById("text3").value;
+var mark4=document.getElementById("text4").value;
+var total=parseInt(mark1)+parseInt(mark2)+parseInt(mark3)+parseInt(mark4);
+document.getElementById("tot").value=total;
+var average=total/4;
+document.getElementById("avg").value=average;
+if(parseInt(total)>=350){
+	document.getElementById("grade").value="Ist Class";
+}
+else if(parseInt(total)>=250){
+	document.getElementById("grade").value="IInd Class";
+}
+else if(parseInt(total)>=200){
+	document.getElementById("grade").value="IIIrd Class";
+}
+else{
+	document.getElementById("grade").value="IVth Class";
+}
+if(parseInt(mark1)>=40 && parseInt(mark2)>=40 && parseInt(mark3)>=40 && parseInt(mark4)>=40){
+	document.getElementById("result").value="Pass";
+}
+else{
+	document.getElementById("result").value="Fail";
+}
+}

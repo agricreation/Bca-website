@@ -1,0 +1,11 @@
+function calc(){
+var prev=document.getElementById("text3").value;
+var curr=document.getElementById("text4").value;
+var unit=parseInt(prev)-parseInt(curr);
+document.getElementById("text5").value=unit;
+var amt=parseInt(unit)*5;
+document.getElementById("text6").value=amt;
+var gst=document.getElementById("text7").value;
+var totalamount=parseInt(amt*gst)/100+parseInt(amt);
+document.getElementById("text8").value=totalamount;
+}

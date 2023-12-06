@@ -1,0 +1,93 @@
+ARTHMETIC OPERATORS (source code)
+
+<html>
+<head>
+<title>Arithmetic Operators</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+body{
+background-color:#999999;
+}
+.container{
+background-color:#e5e5e5;
+width:600px;
+height:380px;
+padding:10px;
+border-radius:10px;
+}
+.input{
+background-color
+}
+.textbox{
+height:30px;
+width:200px;
+margin-left:30px;
+}
+.btn{
+height:30px;
+width:100px;
+padding:2px;
+}
+
+</style>
+<script>
+function add(){
+var a=document.getElementById("text1").value;
+var b=document.getElementById("text2").value;
+var c=parseInt(a)+parseInt(b);
+document.getElementById("text3").value=c;
+}
+function sub(){
+var a=document.getElementById("text1").value;
+var b=document.getElementById("text2").value;
+var c=parseInt(a)-parseInt(b);
+document.getElementById("text3").value=c;
+}
+function mul(){
+var a=document.getElementById("text1").value;
+var b=document.getElementById("text2").value;
+var c=parseInt(a)*parseInt(b);
+document.getElementById("text3").value=c;
+}
+function div(){
+var a=document.getElementById("text1").value;
+var b=document.getElementById("text2").value;
+var c=parseInt(a)/parseInt(b);
+document.getElementById("text3").value=c;
+}
+function mod(){
+var a=document.getElementById("text1").value;
+var b=document.getElementById("text2").value;
+var c=parseInt(a)%parseInt(b);
+document.getElementById("text3").value=c;
+}
+</script>
+</head>
+<body>
+<center>
+<div class="container">
+<div class="heading">
+<h1>ARITHMETIC OPERATORS</h1>
+<h4>Javascript</h4>
+</div>
+<br><br>
+<div class="input">
+Number 1:
+<input type="text" id="text1" class="textbox"><br><br>
+Number 2:
+<input type="text" id="text2" class="textbox"><br><br>
+Result:
+<input type="text" id="text3" class="textbox"><br><br>
+</div>
+<br>
+<div class="operators">
+<input type="button" value="Additon" onClick="add()" class="btn">
+<input type="button" value="Subtract" onClick="sub()" class="btn">
+<input type="button" value="Multiply" onClick="mul()" class="btn">
+<input type="button" value="Division" onClick="div()" class="btn">
+<input type="button" value="Modulus" onClick="mod()" class="btn">
+</div>
+</div>
+</center>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Sora&display=swap" rel="stylesheet">
+
+</head>
+<div id="header">
+    <a href="../../../index.html">
+        <img src="../../../img/favicon.png">
+    </a>
+    <ul>
+        <li><a href="../../../index.html">Menu</a></li>
+    </ul>
+</div>
+<!--Headings-->
+<div id="j">
+    Css / notes
+</div>
+<body>
+<h2>Java Script-Variable Scope</h2>
+The scope of a variable is the region of your program in which it is defined. 
+JavaScript variables have only two scopes.<br>
+
+*<b>Global</b> Variables - A global variable has global scope which means it can be defined anywhere in your JavaScript code.<br>
+
+*<b>Local </b>Variables - A local variable will be visible only within a function where it is defined. 
+Function parameters are always local to that function.<br>
+
+Within the body of a function, a local variable takes precedence over a global variable with the same name. 
+If you declare a local variable or function parameter with the same name as a global variable, you effectively hide the global variable.<br> 
+Take a look into the following example.<br>
+
+<p>
+&lt;html&gt;<br>
+   &lt;body onload = checkscope();&gt;<br>   
+      &lt;script type = "text/javascript"&gt;<br>
+         &lt;!--<br>
+            var myVar = "global";      // Declare a global variable<br>
+            function checkscope( ) {<br>
+               var myVar = "local";    // Declare a local variable<br>
+
+               document.write(myVar);<br>
+            }<br>
+         //--&gt;<br>
+      &lt;/script&gt;<br>     
+   &lt;/body&gt;<br>
+&lt;/html&gt;</p>
+</body>
+</html>  

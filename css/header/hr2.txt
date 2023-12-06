@@ -1,0 +1,63 @@
+<!---Css source code--->
+
+body
+{
+margin:0;
+}
+
+.header
+{
+width:90%;
+border:2px solid black;
+margin:auto;
+height:30%;
+text-align:center;
+background-color:red;
+margin-top:10px;
+}
+
+.logo1
+{
+border-radius:50%;
+max-width:80%;
+max-height:80%;
+float:left;
+margin-top:1.5%;
+margin-left:1%;
+}
+
+.logo2
+{
+border-radius:50%;
+max-width:80%;
+max-height:80%;
+float:right;
+margin-top:1.5%;
+margin-right:1%;
+border:2px solid black;
+}
+
+.paragraph
+{
+background-color:black;
+color:white;
+max-width:50%;
+max-height:25%;
+margin:auto;
+font-size:40px;
+margin-top:2%;
+font-family:Corbel;
+
+}
+
+.border
+{
+max-width:90%;
+max-height:25%;
+text-align:center;
+}
+
+.note{
+    padding:10px;
+    background-color: red;
+}

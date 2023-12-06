@@ -1,0 +1,24 @@
+#heads{
+    background-color: red;
+    padding:30px;
+    margin: auto;
+    margin-top: 20px;
+    width:90%;
+    height:30%;
+}
+#heads img{
+    width:15%;
+    border-radius: 50px;
+}
+.l1{
+    float: left;
+    position: absolute;
+    top:106px;
+}
+.l2{
+    float: right;
+}
+.cont{
+    position: absolute;
+    left:40%;
+}

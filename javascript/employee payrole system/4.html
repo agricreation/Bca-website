@@ -1,0 +1,63 @@
+<html>
+<head>
+<style>
+
+</style>
+
+<script>
+function calc(){
+	var salary=document.getElementById("salary").value;
+	var bonus=document.getElementById("bonus").value;
+	var increment=document.getElementById("inc").value;
+	var overtime=document.getElementById("over").value;
+	var lifeins=document.getElementById("lic").value;
+	var provfund=document.getElementById("pf").value;
+	var grosspay=parseInt(salary*bonus)/100+parseInt(salary*increment)/100+parseInt(salary*overtime)/100+parseInt(salary);
+	document.getElementById("gp").value=grosspay;
+	var netpay=parseInt(grosspay)-parseInt(salary)*lifeinc/100+parseInt(provfund)*salary/100;
+	document.getElementById("np").value=netpay;
+}
+</script>
+<title>Employee Payroll System</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+<center>
+<div class="container">
+<div class="heading">
+<h1>EMPLOYEE PAYROLL SYSTEM</h1>
+<h4>Javascript</h4>
+</div>
+<br><br>
+<div class="input">
+Employee Name:
+<input type="text" id="text1" class="textbox"><br><br>
+Employee Id:
+<input type="text" id="text2" class="textbox"><br><br>
+Salary:
+<input type="text" id="salary" class="textbox"><br><br>
+Bonus:
+<input type="text" id="bonus" class="textbox"><br><br>
+Increment:
+<input type="text" id="inc" class="textbox"><br><br>
+Overtime:
+<input type="text" id="over" class="textbox"><br><br>
+Gross Pay:
+<input type="text" id="gp" class="textbox"><br><br>
+Life Insurance:
+<input type="text" id="lic" class="textbox"><br><br>
+Provident Fund:
+<input type="text" id="pf" class="textbox"><br><br>
+Net pay:
+<input type="text" id="np" class="textbox"><br><br>
+</div>
+<br>
+
+<div class="operators">
+<input type="button" value="Calculate" onClick="calc()" class="btn">
+</div>
+</div>
+</center>
+</body>
+</html>

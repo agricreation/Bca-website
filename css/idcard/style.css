@@ -1,0 +1,100 @@
+#card1{
+    padding: 10px;
+    position: relative;
+    background-color: red;
+    width: 200px;
+    height: 353px;
+    margin: auto;
+    border-radius:60px 60px 5px 5px;
+}
+
+#card2 img{
+    width:60%;
+    height:auto;
+    margin:auto;
+    position:absolute;
+
+    left:40px;
+}
+#card3{
+    color:white;
+    font-family: 'Shippori Antique', sans-serif;
+    text-transform: uppercase;
+    font-size:8px;
+    position: absolute;
+    top:90px;
+    left:48px;
+}
+#card4{
+    color:white;
+    position: absolute;
+    top:115px;
+    left:35px;
+    font-size:10px;
+    margin:auto;
+    
+}
+#card5 img{
+    width:90%;
+    height: auto;
+    position: absolute;
+    top:130px;
+}
+#card6{
+    position: absolute;
+    color:white;
+    top:310px;
+    left:50px;
+    font-size: 13px;
+    font-family: 'Shippori Antique', sans-serif;
+    text-transform: uppercase;
+}
+#card7{
+    position: absolute;
+    color:white;
+    top:325px;
+    left:90px;
+    font-size: 13px;
+    font-family: 'Shippori Antique', sans-serif;
+    text-transform: uppercase;
+}
+#card8{
+    position: absolute;
+    color:rgb(241, 165, 0);
+    top:343px;
+    left:0px;
+    font-size: 9px;
+    font-family: 'Shippori Antique', sans-serif;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+#card9{
+    position: absolute;
+    color:rgb(241, 165, 0);
+    top:353px;
+    left:0px;
+    font-size: 9px;
+    font-family: 'Shippori Antique', sans-serif;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+
+#card10{
+    position: absolute;
+    color:rgb(241, 165, 0);
+    top:353px;
+    left:148px;
+    font-size: 9px;
+    font-family: 'Shippori Antique', sans-serif;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+
+#holes{
+    padding:8px;
+    background-color: black;
+    width:50px;
+    border-radius:60px 60px 60px 60px;
+    position: absolute;
+    left:73px;
+}

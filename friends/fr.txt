@@ -1,0 +1,77 @@
+< HTML SOURCE CODE >
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="listh">
+        Frirends list
+    </div>
+    <div id="listhead">
+    <!--unorder list-->
+    <div id="list1">
+        <h3>Area friends</h3>
+        <ul>
+            <li>chandru</li>
+            <li>dheena</li>
+            <li>raj</li>
+        </ul>
+    </div>
+
+    <div id="list2">
+        <h3>School friends</h3>
+        <ul type="square">
+            <li>rajkumar</li>
+            <li>kumar</li>
+            <li>Momo</li>
+        </ul>
+    </div>
+
+    <div id="list3">
+        <h3>Gaming friends</h3>
+        <ul type="circle">
+        <li>Yuvraj</li>
+        <li>Anthony</li>
+        <li>Momo</li>
+    </ul>
+    </div>
+    <!--ordered list-->
+    <div id="list4">
+        <h3>Family friends</h3>
+        <ul type="a">
+        <li>Yuvraj</li>
+        <li>Anthony</li>
+        <li>Momo</li>
+    </ul>
+    </div>
+
+    <div id="list5">
+        <h3>Social media friends</h3>
+        <ul type="I">
+        <li>Yuvraj</li>
+        <li>Anthony</li>
+        <li>Momo</li>
+    </ul>
+    </div>
+
+    <div id="list6">
+        <h3>Collage friends</h3>
+        <ul type="1">
+        <li>Yuvraj</li>
+        <li>Anthony</li>
+        <li>Momo</li>
+    </ul>
+    </div>
+</div>
+</body>
+
+</html>

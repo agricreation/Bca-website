@@ -1,0 +1,11 @@
+body{
+	background-color:blue;
+}
+.container{
+	background-color:grey;
+	width:600px;
+	padding:10px;
+}
+.textbox{
+	margin-left:30px;
+}

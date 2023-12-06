@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>greeting card</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Lobster&display=swap" rel="stylesheet">
+  <style type="text/css">
+    *{
+    padding: 0;
+    margin: 0;
+    box-shadow: box-sizing;
+
+    }
+h1 {
+  font-size: 37px;
+  background:-webkit-linear-gradient(#Ff9897, #f650a0) ;
+  background-size: fixed;
+  background-clip: text;
+ text-fill-color: transparent;
+color: white;
+display:inline-block;
+flex-direction: column-reverse;
+flex-wrap: wrap-reverse;
+visibility: initial;
+font-family: 'Josefin Sans', sans-serif;
+ margin: 15px;
+ padding: 15px;
+ border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  justify-align: center;
+  outline-style: ridge;
+  text-decoration-line: unset;
+letter-spacing: 15px;
+font-weight:bolder ;
+font-style: italic;
+box-shadow: 0 30px 30px rgba(0,0,0,1);
+
+}
+
+html{
+
+background-color:#2a2438 ;
+padding: 15px;
+margin: 15px;
+
+}
+body{
+
+background-color:rgb(173,97,178) ;
+padding: 15px;
+margin: 15px;
+outline-style: ridge;
+color: white;
+
+}
+.cont{
+  background-color: white ! important;
+  color:red;
+font-size: 25px;
+border:rgb(173,97,178) dotted 13px ;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lobster', cursive
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+img{
+
+width: 160;
+padding-left: 15px;
+padding-right: 15px;
+
+}
+.
+
+  </style>
+
+</head>
+<body>
+<div class="hbd">
+  <div>
+  <center><h1> HAPPY BIRTHDAY!<br>TO YOU </h1></center>
+  <div>
+
+</div>
+<br><br>
+<div class="cont"><br>
+  <img src="redheart.png"><img src="redheart2.png"><img src="redheart3.png"> <img src="to-jeffery.gif" width="160"> <img src="love-hearts.gif" width="160"> <br><br>
+  .💫 ⭐ 🌟 ✨ ⚡.  May you life filled with sweet momemts happy smiles  and blissful memories.  I just want to wish you lots of love and good luck,good health, good wealth and happiness .🍦 🍰 🎂 🍮 🍭 🍬 🍫  🍩 🍪 🌰. <br> <br>
+</div><br><br>
+</body>
+</html>

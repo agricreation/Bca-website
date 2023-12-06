@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <title> resume </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    
+    </head>
+
+<body>
+
+    <div class="backgrounds">
+        
+        <div class="design6">
+            <img src="channel banner.jpg">
+            <div class="design7">    
+            </div>
+            <div class="design8">
+           
+                <table>
+                <tr>
+                    <td>Name</td>
+                    <td>:</td>
+                    <td>Moovendhan v</td>
+                </tr>
+                <tr>
+                    <td> Age</td>
+                    <td>:</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td> Father</td>
+                    <td>:</td>
+                    <td>Mr.veerabathiran</td>
+                </tr>
+                <tr>
+                    <td> Mother</td>
+                    <td>:</td>
+                    <td>Mrs.poorani</td>
+                </tr>
+                <tr>
+                    <td> Hobbies</td>
+                    <td>:</td>
+                    <td>Youtube & blogging</td>
+                </tr>
+                <tr>
+                    <td> Languages known</td>
+                    <td>:</td>
+                    <td>English & tamil</td>
+                </tr>
+                <tr>
+                    <td> Software known</td>
+                    <td>:</td>
+                    <td>Photoshop(40%) premier pro(50%)</td>
+                </tr>
+                <tr>
+                    <td> Address</td>
+                    <td>:</td>
+                    <td>No.6 mariyamman kovil street
+                        kalthirampet-tamilnadu                    </td>
+                </tr>
+                <tr>
+                    <td> Mail id</td>
+                    <td>:</td>
+                    <td>moovendhanagriculture@protonmail.ch
+                        moovendhanagriculture@gmail.com
+                    </td>
+                </tr>
+
+            </table>
+                <div class="aboutme">
+                   <p> About me:
+                     hi, this is moovendhan(Agri). I am from a small village (kalthirampet). I am intrested in creating videos on youtube and make content on the blog. It will give me a more challenging task to complete the work. The challenges like shooting videos, writing content, editing the videos, designing thumbnails, and much more!<br>
+                      <H3>WEBSITES</H3>
+                     www.bestappsintamil.in / bestintrestingapps.bestappsintamil.in
+                    </p>
+                    </div>
+            </div>
+          
+                
+        </div>
+
+        
+
+        <div class="design">
+          
+          
+
+                <div class="profiles">
+                    <img src="profile.jpg">
+                    <div class="design1">
+                        <t5>Moovendhan v</t5>
+                    
+                    </div>
+                    <div class="design2">
+                        <t5>Contact</t5>
+                    </div>
+
+                    <div class="design3">
+                        <t5>9750639894</t5>
+                    </div>
+
+                    <div class="design4">
+                        <p>skills</p>
+
+                        <div class="skills">
+                        <p>Photoshop</p>
+                        <p>Premier Pro</p>
+                        <p>Video creator</p>
+                        </div>
+
+                        <div class="design5">
+                            <t5>Hate to-study love to-learn</t5>
+                        </div>
+
+                        
+                    </div>
+
+                   
+
+                </div>
+            
+        </div>
+    </div>
+</body>
